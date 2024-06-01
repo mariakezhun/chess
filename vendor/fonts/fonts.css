@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./Merriweather-Regular.ttf) format('truetype'),
+  url(./Merriweather-Regular.woff) format('woff'),
+  url(./Merriweather-Black.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./Golos-Text-Regular.ttf) format('truetype'),
+  url(./Golos-Text-Regular.woff) format('woff'),
+  url(./Golos-Text-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(./Golos-Text-Medium.ttf) format('truetype'),
+  url(./Golos-Text-Medium.woff) format('woff'),
+  url(./Golos-Text-Medium.woff2) format('woff2');
+}
