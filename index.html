@@ -322,40 +322,105 @@
         </div>
       </section>
 
-    <section class="transformation">
-      <div class="transformation__wrapper">
-        <div class="transformation__header">
-          <h2 class="transformation__title">Этапы преображения Васюков</h2>
-          <p class="transformation__subtitle">Будущие источники обогащения васюкинцев</p>
+      <section class="transformation">
+        <div class="transformation__wrapper">
+          <div class="transformation__header">
+            <h2 class="transformation__title">Этапы преображения Васюков</h2>
+            <p class="transformation__subtitle">
+              Будущие источники обогащения васюкинцев
+            </p>
+          </div>
+          <div class="transformation__overflow">
+            <ul class="transformation__container">
+              <li class="transformation__grid-area eee">
+                <div class="transformation__count-wrapper">1</div>
+                <p class="transformation__text">
+                  Строительство железнодорожной магистрали Москва-Васюки
+                </p>
+              </li>
+              <li class="transformation__grid-area eee ttt">
+                <div class="transformation__count-wrapper">2</div>
+                <p class="transformation__text">
+                  Открытие фешенебельной гостиницы «Проходная пешка» и других
+                  небоскрёбов
+                </p>
+              </li>
+              <li class="transformation__grid-area fff">
+                <div class="transformation__count-wrapper">3</div>
+                <p class="transformation__text">
+                  Поднятие сельского хозяйства в радиусе на тысячу километров:
+                  производство овощей, фруктов, икры, шоколадных конфет
+                </p>
+              </li>
+              <li class="transformation__grid-area eee hhh">
+                <div class="transformation__count-wrapper">4</div>
+                <p class="transformation__text">
+                  Строительство дворца для турнира
+                </p>
+              </li>
+              <li class="transformation__grid-area eee ttt">
+                <div class="transformation__count-wrapper">5</div>
+                <p class="transformation__text">
+                  Размещение гаражей для гостевого <br />автотранспорта
+                </p>
+              </li>
+              <li class="transformation__grid-area eee">
+                <div class="transformation__count-wrapper">6</div>
+                <p class="transformation__text">
+                  Постройка сверхмощной радиостанции для передачи всему миру
+                  сенсационных результатов
+                </p>
+              </li>
+              <li class="transformation__grid-area ddd">
+                <div class="transformation__count-wrapper">7</div>
+                <p class="transformation__text transformation__text_type_long">
+                  Создание аэропорта «Большие Васюки» с регулярным отправлением
+                  почтовых самолётов и дирижаблей во все концы света, включая
+                  Лос-Анжелос и Мельбурн
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="transformation__controls">
+            <button
+              class="transformation__control transformation__control_type_prev"
+              onclick="prevTransformSlide()"
+            ></button>
+            <div class="transformation__indicators">
+              <button
+                class="transformation__indicator"
+                onclick="goToTransformSlide(0)"
+              ></button>
+              <button
+                class="transformation__indicator"
+                onclick="goToTransformSlide(1)"
+              ></button>
+              <button
+                class="transformation__indicator"
+                onclick="goToTransformSlide(2)"
+              ></button>
+              <button
+                class="transformation__indicator"
+                onclick="goToTransformSlide(3)"
+              ></button>
+              <button
+                class="transformation__indicator"
+                onclick="goToTransformSlide(4)"
+              ></button>
+            </div>
+            <button
+              class="transformation__control transformation__control_type_next"
+              onclick="nextTransformSlide()"
+            ></button>
+          </div>
         </div>
-        <div class="transformation__container">
-          <div class="eee">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
-          <div class="eee">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
-          <div class="fff">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
-          <div class="eee">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
-          <div class="eee">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
-          <div class="eee ooo">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
-          <div class="ddd ooo">
-            <img class="transformation__texture" src="./images/grid-texture.png" alt="Текстура">
-          </div>
 
-        </div>
-      </div>
-
-      <img class="transformation__airplane" src="./images/airplane.png" alt="">
-    </section>
+        <img
+          class="transformation__airplane"
+          src="./images/airplane.png"
+          alt=""
+        />
+      </section>
 
   </div>
 </body>
