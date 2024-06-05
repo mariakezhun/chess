@@ -346,7 +346,7 @@
   width: 634px;
   height: 634px;
   mix-blend-mode: overlay;
-  animation: circleText linear 20s infinite;
+  animation: circleText linear 40s infinite;
 }
 
 @media screen and (max-width: 375px) {
@@ -356,9 +356,8 @@
   }
 }
 
-
 /* бегущая строка */
-.m-scroll {
+.running-line {
   display: flex;
   position: relative;
   max-width: 1920px;
@@ -369,7 +368,13 @@
   z-index: 12;
 }
 
-.m-scroll__title {
+@media screen and (max-width: 375px) {
+  .running-line {
+    height: 38px;
+  }
+}
+
+.running-line__title {
   display: flex;
   position: absolute;
   top: 0;
@@ -381,11 +386,13 @@
   white-space: nowrap;
   transition: all 1s ease;
 }
-.container {
+
+.running-line__container {
   display: flex;
-  animation: scrollText 40s infinite linear;
+  animation: scrollText 20s infinite linear;
 }
-h1 {
+
+.running-line__wrapper {
   margin: 0;
   padding: 0;
   font-size: 22px;
@@ -395,7 +402,8 @@ h1 {
   gap: 12px;
   align-items: center;
 }
-.text {
+
+.running-line__text {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -407,6 +415,12 @@ h1 {
   font-weight: 400;
   line-height: 110%;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+  .running-line__text {
+    font-size: 16px;
+  }
 }
 
 .support {
