@@ -1091,6 +1091,235 @@
     background-image: url(./images/carousel-button-right-disabled.svg);
   }
 }
+
+.participants {
+  margin: 200px auto 140px;
+  overflow: hidden;
+  max-width: 1222px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 375px) {
+  .participants {
+    margin: 120px auto 100px;
+    max-width: 335px;
+    padding-left: 0;
+  }
+}
+
+.participants__wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__header {
+    flex-direction: column;
+  }
+}
+
+.participants__title {
+  margin: 0;
+  padding: 0;
+  color: #313131;
+  font-family: Merriweather;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 64.8px */
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__title {
+    font-size: 36px;
+    line-height: 110%;
+  }
+}
+
+.participants__cards {
+  margin: 60px 0 0;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__cards {
+    margin: 40px 0 0;
+  }
+}
+
+.participants__card {
+  flex: 0 0 33.3333%;
+  max-width: 394px;
+  width: 100%;
+  box-sizing: border-box;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__card {
+    flex: 1 0 100%;
+  }
+}
+
+.participants__avatar {
+  max-width: 320px;
+  max-height: 320px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__avatar {
+    max-width: 244px;
+    max-height: 244px;
+  }
+}
+
+.participants__container {
+  margin: 28px 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__container {
+    margin: 31px 0 0;
+  }
+}
+
+.participants__person {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  align-items: center;
+}
+
+.participants__name {
+  margin: 0;
+  padding: 0;
+  color: #313131;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.participants__rank {
+  margin: 0;
+  padding: 0;
+  color: #313131;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+  opacity: 0.6;
+}
+
+.participants__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  padding: 12px;
+  border-radius: 62px;
+  border: 1px solid #3057a2;
+  max-width: 113px;
+  width: 100%;
+  max-height: 35px;
+  color: #3057a2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+
+.participants__details:hover {
+  background: #3057a2;
+  color: #fff;
+}
+
+.participants__controls {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 151px;
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__controls {
+    position: initial;
+    margin: 40px auto 0;
+    max-width: 128px;
+  }
+}
+
+.participants__control {
+  cursor: pointer;
+  border: none;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  transition: background-image 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 375px) {
+  .participants__control {
+    width: 36px;
+    height: 36px;
+    background-size: 36px;
+  }
+}
+
+.participants__control_type_prev {
+  background-image: url(./images/carousel-button-left.svg);
+}
+
+.participants__control_type_next {
+  background-image: url(./images/carousel-button-right.svg);
+}
+
+.participants__control_type_prev:hover {
+  cursor: pointer;
+  background-image: url(./images/carousel-button-left-hover.svg);
+}
+
+.participants__control_type_next:hover {
+  cursor: pointer;
+  background-image: url(./images/carousel-button-right-hover.svg);
+}
+
+.participants__control_type_prev:disabled {
+  cursor: auto;
+  background-image: url(./images/carousel-button-left-disabled.svg);
+}
+
+.participants__control_type_next:disabled {
+  cursor: auto;
+  background-image: url(./images/carousel-button-right-disabled.svg);
+}
+
+.participants__counter {
+  margin: 0;
+  padding: 0 14px 0;
+  font-size: 18px;
+}
+
 @keyframes scrollText {
   from {
     transform: translateX(0%);
