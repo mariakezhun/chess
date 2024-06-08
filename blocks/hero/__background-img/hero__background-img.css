@@ -11,7 +11,7 @@
     }
   }
   
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1367px) {
     .hero__background-img {
       left: -120px;
     }
@@ -29,13 +29,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
-    .hero__background-img {
-      left: -44px;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 376px) {
     .hero__background-img {
       left: -120px;
     }
