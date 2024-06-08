@@ -1,14 +1,20 @@
 let currentIndex = 0;
+const viewportWidth = window.innerWidth;
+const cards = document.querySelector('.participants__cards');
+const cardsWith = cards.offsetWidth;
+const cardWidth = document.querySelector('.participants__card').offsetWidth;
+const totalCards = document.querySelectorAll('.participants__card').length;
+
+const counter = document.querySelector('.participants__counter');
+const slidesPerView = Math.floor(cardsWith / cardWidth);
+const totalViews = Math.ceil(totalCards / slidesPerView);
+
+console.log(slidesPerView);
+console.log(totalViews);
+console.log(totalCards);
+
 
 function updateSlider() {
-  const viewportWidth = window.innerWidth;
-  const slidesPerView = 1;
-  const totalCards = document.querySelectorAll('.participants__card').length;
-  const counter = document.querySelector('.participants__counter');
-
-  const totalViews = Math.ceil(totalCards / slidesPerView);
-
-  const cards = document.querySelector('.participants__cards');
 
   if (viewportWidth < 1281) {
     cards.style.transform = `translateX(-${
@@ -18,7 +24,7 @@ function updateSlider() {
     document.querySelector('.participants__control_type_prev').disabled =
       currentIndex === 0;
     document.querySelector('.participants__control_type_next').disabled =
-      currentIndex === totalCards - 1;
+      currentIndex === totalViews - 1;;
   } else {
     cards.style.transform = `translateX(-${currentIndex * 101.7}%)`;
     counter.textContent = `${currentIndex * 3 + 3}/6`;
@@ -30,9 +36,13 @@ function updateSlider() {
 }
 
 function nextSlide() {
-  if (currentIndex < totalViews - 0) {
+  if (currentIndex < totalViews - 1) {
     currentIndex++;
     updateSlider();
+    console.log(currentIndex);
+    console.log(totalViews);
+  } else {
+    currentIndex = -1;
   }
 }
 
@@ -48,24 +58,26 @@ function goToSlide(index) {
   updateSlider();
 }
 
+setInterval(nextSlide, 4000);
+
 updateSlider();
 
-const slidesPerView = 2;
+const slidesPerViewTransform = 2;
 const totalSlides = document.querySelectorAll(
   '.transformation__grid-area'
 ).length;
-const totalViews = Math.ceil(totalSlides / slidesPerView + 1);
+const totalViewsTransform = Math.ceil(totalSlides / slidesPerViewTransform + 1);
 
 function updateTransformSlider() {
   const cards = document.querySelector('.transformation__container');
-  cards.style.transform = `translateX(-${(currentIndex * 530) / totalViews}%)`;
+  cards.style.transform = `translateX(-${(currentIndex * 530) / totalViewsTransform}%)`;
 
   updateIndicators();
 
   document.querySelector('.transformation__control_type_prev').disabled =
     currentIndex === 0;
   document.querySelector('.transformation__control_type_next').disabled =
-    currentIndex === totalViews - 1;
+    currentIndex === totalViewsTransform - 1;
 }
 
 function updateIndicators() {
@@ -79,7 +91,7 @@ function updateIndicators() {
 }
 
 function nextTransformSlide() {
-  if (currentIndex < totalViews - 1) {
+  if (currentIndex < totalViewsTransform - 1) {
     currentIndex++;
     updateTransformSlider();
   }
