@@ -7,5 +7,6 @@
   .support__players {
     width: 335px;
     height: 212.56px;
+    order: 1;
   }
 }

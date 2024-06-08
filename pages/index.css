@@ -33,10 +33,9 @@
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__lead-container/support__lead-container.css);
 @import url(../blocks/support/__title/support__title.css);
-@import url(../blocks/support/__title/_type/support__title_type_mobile.css);
-@import url(../blocks/support/__title/_type/support__title_type_small.css);
-@import url(../blocks/support/__title/_color/support__title_color_red.css);
-@import url(../blocks/support/__title/_type/support__title_type_info.css);
+@import url(../blocks/support/__text/support__text.css);
+@import url(../blocks/support/__text/_color/support__text_color_red.css);
+@import url(../blocks/support/__text/_type/support__text_type_second.css);
 @import url(../blocks/support/__info-container/support__info-container.css);
 @import url(../blocks/support/__image-container/support__image-container.css);
 @import url(../blocks/support/__image/support__image.css);
