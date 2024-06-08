@@ -62,6 +62,8 @@ setInterval(nextSlide, 4000);
 
 updateSlider();
 
+currentTransformIndex = 0;
+
 const slidesPerViewTransform = 2;
 const totalSlides = document.querySelectorAll(
   '.transformation__grid-area'
@@ -70,14 +72,14 @@ const totalViewsTransform = Math.ceil(totalSlides / slidesPerViewTransform + 1);
 
 function updateTransformSlider() {
   const cards = document.querySelector('.transformation__container');
-  cards.style.transform = `translateX(-${(currentIndex * 530) / totalViewsTransform}%)`;
+  cards.style.transform = `translateX(-${(currentTransformIndex * 530) / totalViewsTransform}%)`;
 
   updateIndicators();
 
   document.querySelector('.transformation__control_type_prev').disabled =
-    currentIndex === 0;
+    currentTransformIndex === 0;
   document.querySelector('.transformation__control_type_next').disabled =
-    currentIndex === totalViewsTransform - 1;
+    currentTransformIndex === totalViewsTransform - 1;
 }
 
 function updateIndicators() {
@@ -85,27 +87,27 @@ function updateIndicators() {
   indicators.forEach((indicator, index) => {
     indicator.classList.toggle(
       'transformation__indicator_active',
-      index === currentIndex
+      index === currentTransformIndex
     );
   });
 }
 
 function nextTransformSlide() {
-  if (currentIndex < totalViewsTransform - 1) {
-    currentIndex++;
+  if (currentTransformIndex < totalViewsTransform - 1) {
+    currentTransformIndex++;
     updateTransformSlider();
   }
 }
 
 function prevTransformSlide() {
-  if (currentIndex > 0) {
-    currentIndex--;
+  if (currentTransformIndex > 0) {
+    currentTransformIndex--;
     updateTransformSlider();
   }
 }
 
 function goToTransformSlide(index) {
-  currentIndex = index;
+  currentTransformIndex = index;
   updateTransformSlider();
 }
 
