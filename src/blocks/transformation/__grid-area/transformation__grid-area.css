@@ -1,0 +1,14 @@
+.transformation__grid-area {
+  display: flex;
+  padding: 20px;
+  column-gap: 16px;
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__grid-area {
+    display: flex;
+    flex: 1 0;
+    padding: 63px 20px 0;
+    column-gap: 16px;
+  }
+}

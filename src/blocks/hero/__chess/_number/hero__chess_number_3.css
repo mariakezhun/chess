@@ -1,0 +1,14 @@
+.hero__chess_number_3 {
+  top: 210px;
+  z-index: 1;
+  left: 1181px;
+}
+
+@media screen and (max-width: 850px) {
+  .hero__chess_number_3 {
+    top: 543px;
+    left: 346px;
+    transform: rotate(5deg);
+    max-width: 64px;
+  }
+}

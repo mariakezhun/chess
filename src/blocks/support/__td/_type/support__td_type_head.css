@@ -1,0 +1,12 @@
+.support__td_type_head {
+  width: 43.5%;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 850px) {
+  .support__td_type_head {
+    width: 100%;
+    padding: 16px 0 12px 0;
+    border-bottom-width: 0;
+  }
+}

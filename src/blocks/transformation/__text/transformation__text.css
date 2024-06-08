@@ -1,0 +1,15 @@
+.transformation__text {
+  margin: 0;
+  padding: 0;
+  color: #313131;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 24px */
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__text {
+    font-size: 18px;
+  }
+}

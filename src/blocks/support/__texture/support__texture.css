@@ -1,0 +1,11 @@
+.support__texture {
+  position: absolute;
+  width: 100%;
+  min-height: 528px;
+  mix-blend-mode: color-burn;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-image: url(./images/texture-info.png);
+  left: -21px;
+  top: 0;
+}

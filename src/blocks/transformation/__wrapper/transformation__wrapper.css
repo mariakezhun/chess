@@ -1,0 +1,9 @@
+.transformation__wrapper {
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__wrapper {
+    max-width: 335px;
+  }
+}

@@ -1,0 +1,12 @@
+.transformation__controls {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__controls {
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+    margin: 28px 0 0;
+  }
+}

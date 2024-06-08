@@ -1,0 +1,6 @@
+@media screen and (max-width: 850px) {
+  .support__td_type_row-info {
+    padding: 16px 0px 0px 0px;
+    border-bottom-width: 0;
+  }
+}

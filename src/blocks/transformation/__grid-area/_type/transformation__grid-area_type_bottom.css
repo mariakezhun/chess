@@ -1,0 +1,5 @@
+@media screen and (max-width: 850px) {
+  .transformation__grid-area_type_bottom {
+    padding: 0 20px 0;
+  }
+}

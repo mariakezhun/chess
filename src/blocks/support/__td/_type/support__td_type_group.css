@@ -1,0 +1,14 @@
+.support__td_type_group {
+  display: flex;
+  column-gap: 12px;
+  margin: 0;
+  padding: 12px 0 0 0px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .support__td_type_group {
+    flex-direction: row;
+  }
+}

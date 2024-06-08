@@ -1,0 +1,42 @@
+.hero__background-img {
+    position: absolute;
+    z-index: 12;
+    top: -44px;
+    left: 158px;
+  }
+  
+  @media screen and (max-width: 1660px) {
+    .hero__background-img {
+      left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 1366px) {
+    .hero__background-img {
+      left: -120px;
+    }
+  }
+  
+  @media screen and (max-width: 1070px) {
+    .hero__background-img {
+      left: -140px;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .hero__background-img {
+      left: 49px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .hero__background-img {
+      left: -44px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .hero__background-img {
+      left: -120px;
+    }
+  }

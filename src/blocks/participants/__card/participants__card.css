@@ -1,0 +1,16 @@
+.participants__card {
+  flex: 0 0 33.3333%;
+  max-width: 394px;
+  width: 100%;
+  box-sizing: border-box;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .participants__card {
+    flex: 1 0 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.hero__circle {
+  width: 660px;
+  height: 660px;
+  border-radius: 660px;
+  background: #fbce51;
+  position: absolute;
+  top: 0;
+  left: 793px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+  .hero__circle {
+    width: 297.47px;
+    height: 297.47px;
+    top: 454px;
+    left: 150px;
+  }
+}

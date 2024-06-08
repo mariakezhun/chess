@@ -1,0 +1,26 @@
+.support__lead-container {
+  max-width: 1222px;
+  /* padding-left: 15px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 17px;
+}
+
+@media screen and (max-width: 1300px) {
+  .support__lead-container {
+    flex-direction: column;
+    padding: 0;
+    max-width: 1100px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .support__lead-container {
+    max-width: 335px;
+    flex-direction: column;
+    padding-left: 0;
+    row-gap: 25px;
+  }
+}

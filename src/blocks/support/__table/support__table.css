@@ -1,0 +1,13 @@
+.support__table {
+  margin: 59px 0 0;
+  max-width: 704px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 850px) {
+  .support__table {
+    margin: 45px 0 0;
+    max-width: 335px;
+  }
+}

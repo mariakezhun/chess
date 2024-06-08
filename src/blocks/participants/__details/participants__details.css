@@ -1,0 +1,23 @@
+.participants__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  padding: 12px;
+  border-radius: 62px;
+  border: 1px solid #3057a2;
+  max-width: 113px;
+  width: 100%;
+  max-height: 35px;
+  color: #3057a2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+
+.participants__details:hover {
+  background: #3057a2;
+  color: #fff;
+}

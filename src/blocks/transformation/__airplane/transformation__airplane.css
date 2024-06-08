@@ -1,0 +1,30 @@
+.transformation__airplane {
+  position: absolute;
+  right: -4%;
+  width: 30%;
+  bottom: 3.8%;
+}
+
+@media screen and (max-width: 1352px) {
+  .transformation__airplane {
+    right: 91px;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .transformation__airplane {
+    right: 172px;
+    width: 30%;
+    bottom: -24px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__airplane {
+    width: 317.2px;
+    right: 4%;
+    bottom: 316px;
+    transform: rotate(357deg);
+  }
+}

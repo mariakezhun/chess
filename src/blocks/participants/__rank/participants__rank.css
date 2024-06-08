@@ -1,0 +1,10 @@
+.participants__rank {
+  margin: 0;
+  padding: 0;
+  color: #313131;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+  opacity: 0.6;
+}

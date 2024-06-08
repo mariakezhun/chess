@@ -1,0 +1,11 @@
+@media screen and (max-width: 850px) {
+  .transformation__control {
+    cursor: pointer;
+    border: none;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    transition: background-image 0.2s ease-in-out;
+    background-size: 36px;
+  }
+}

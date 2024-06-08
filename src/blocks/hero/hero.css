@@ -1,0 +1,24 @@
+.hero {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 700px;
+    background: #e9ded4;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 0;
+    padding-left: 8px;
+  }
+  
+  @media screen and (max-width: 1366px) {
+    .hero {
+      max-width: 1366px;
+      padding-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .hero {
+      height: 774px;
+      max-height: 774px;
+    }
+  }

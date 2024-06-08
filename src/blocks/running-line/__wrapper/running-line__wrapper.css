@@ -1,0 +1,10 @@
+.running-line__wrapper {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 1);
+  transition: all 0.5s linear;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}

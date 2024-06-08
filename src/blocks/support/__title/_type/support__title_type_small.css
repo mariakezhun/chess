@@ -1,0 +1,6 @@
+@media screen and (max-width: 850px) {
+    .support__title_type_small {
+      font-size: 28px;
+      display: block;
+    }
+  }

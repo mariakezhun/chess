@@ -1,0 +1,16 @@
+.running-line {
+  display: flex;
+  position: relative;
+  max-width: 1920px;
+  height: 60px;
+  margin: auto;
+  background: #f54932;
+  overflow: hidden;
+  z-index: 12;
+}
+
+@media screen and (max-width: 375px) {
+  .running-line {
+    height: 38px;
+  }
+}

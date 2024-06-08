@@ -1,0 +1,10 @@
+.transformation__grid-area_type_huge {
+  grid-area: huge;
+  background-image: url(../../../../images/grid-background-with-texture.png);
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__grid-area_type_huge {
+    flex: 100%;
+  }
+}

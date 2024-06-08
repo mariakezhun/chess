@@ -1,0 +1,13 @@
+.participants__control_type_prev {
+  background-image: url(../../../../images/carousel-button-left.svg);
+}
+
+.participants__control_type_prev:hover {
+  cursor: pointer;
+  background-image: url(../../../../images/carousel-button-left-hover.svg);
+}
+
+.participants__control_type_prev:disabled {
+  cursor: auto;
+  background-image: url(../../../../images/carousel-button-left-disabled.svg);
+}

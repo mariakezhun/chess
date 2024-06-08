@@ -1,0 +1,20 @@
+.content__button_type_details {
+    background: transparent;
+    border: 2px solid #1f1f1f;
+    transition: opacity 1s ease-in-out;
+    color: #1f1f1f;
+    transition: color 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .content__button_type_details:hover {
+    color: #fff;
+    background: #1f1f1f;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .content__button_type_details {
+      background: #fff;
+      border: none;
+    }
+  }

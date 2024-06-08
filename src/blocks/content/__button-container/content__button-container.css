@@ -1,0 +1,14 @@
+.content__button-container {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin: 40px 0 0;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .content__button-container {
+      flex-direction: column;
+      margin: 31px 0 0;
+    }
+  }
+  

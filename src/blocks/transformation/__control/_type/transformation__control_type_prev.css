@@ -1,0 +1,17 @@
+@media screen and (max-width: 850px) {
+  .transformation__control_type_prev {
+    background-image: url(../../../../images/carousel-button-left.svg);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__control_type_prev:hover {
+    background-image: url(../../../../images/carousel-button-left-hover.svg);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__control_type_prev:disabled {
+    background-image: url(../../../../images/carousel-button-left-disabled.svg);
+  }
+}

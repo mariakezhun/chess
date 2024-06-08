@@ -1,0 +1,15 @@
+.support__image-container {
+  position: relative;
+  max-width: 525px;
+  height: 527px;
+  width: 100%;
+  margin: 37px 0 0;
+}
+
+@media screen and (max-width: 850px) {
+  .support__image-container {
+    max-width: 375px;
+    height: 442px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.participants__controls {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 151px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .participants__controls {
+    position: initial;
+    margin: 40px auto 0;
+    max-width: 128px;
+  }
+}

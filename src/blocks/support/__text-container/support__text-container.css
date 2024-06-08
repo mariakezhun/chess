@@ -1,0 +1,13 @@
+.support__text-container {
+  max-width: 704px;
+  width: 100%;
+  margin: 65px 5px 0 0;
+}
+
+@media screen and (max-width: 850px) {
+  .support__text-container {
+    max-width: 335px;
+    width: 100%;
+    margin: 19px auto 0;
+  }
+}

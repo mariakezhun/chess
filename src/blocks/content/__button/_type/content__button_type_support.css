@@ -1,0 +1,8 @@
+.content__button_type_support {
+    color: #fff;
+  }
+  
+  .content__button_type_support:hover {
+    background: #fbce51;
+    color: #1f1f1f;
+  }

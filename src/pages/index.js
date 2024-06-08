@@ -12,8 +12,8 @@ function updateSlider() {
 
   const cards = document.querySelector(".participants__cards");
 
-  if (viewportWidth < 376) {
-    console.log("Ширина видимой области 375 и меньше");
+  if (viewportWidth < 1281) {
+    console.log("Ширина видимой области 1280 и меньше");
     cards.style.transform = `translateX(-${
       (currentIndex * 635.5) / totalViews
     }%)`;

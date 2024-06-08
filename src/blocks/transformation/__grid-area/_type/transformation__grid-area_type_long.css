@@ -1,0 +1,5 @@
+.transformation__grid-area_type_long {
+  grid-area: long;
+  background-image: url(../../../../images/grid-background-with-texture-long-area.png);
+  position: relative;
+}

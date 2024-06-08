@@ -1,0 +1,13 @@
+.hero__chess_number_1 {
+    top: 526px;
+    left: 956px;
+    z-index: 13;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .hero__chess_number_1 {
+      top: 705px;
+      left: 265px;
+      max-width: 102px;
+    }
+  }

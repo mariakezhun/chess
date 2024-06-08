@@ -1,0 +1,15 @@
+.transformation__count-wrapper {
+  max-width: 36px;
+  height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #fff;
+  color: #313131;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}

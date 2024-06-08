@@ -1,0 +1,21 @@
+.support__td {
+  border: 2px solid #d0d0d0;
+  border-left-width: 0;
+  border-top-width: 0;
+  padding: 16px 16px 16px 0;
+  vertical-align: top;
+  line-height: 1.2;
+  color: #313131;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}
+
+@media screen and (max-width: 850px) {
+  .support__td {
+    display: flex;
+    flex-direction: column;
+    border-right-width: 0;
+  }
+}

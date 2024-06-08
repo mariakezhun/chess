@@ -1,0 +1,6 @@
+@media screen and (max-width: 850px) {
+  .transformation__grid-area_type_middle {
+    flex: 0 1;
+    padding-bottom: 28px;
+  }
+}

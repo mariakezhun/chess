@@ -1,0 +1,6 @@
+.participants__person {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  align-items: center;
+}

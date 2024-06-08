@@ -1,0 +1,15 @@
+.hero__city-plane {
+    position: absolute;
+    left: 0px;
+    top: 303px;
+    z-index: 3;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .hero__city-plane {
+      max-width: 885.53px;
+      top: 577px;
+      left: -281px;
+    }
+  }
+  

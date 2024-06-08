@@ -1,0 +1,22 @@
+.hero__circle-text {
+  width: 634px;
+  height: 634px;
+  mix-blend-mode: overlay;
+  animation: circleText linear 40s infinite;
+}
+
+@media screen and (max-width: 850px) {
+  .hero__circle-text {
+    width: 285.76px;
+    height: 285.76px;
+  }
+}
+
+@keyframes circleText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

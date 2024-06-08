@@ -1,0 +1,11 @@
+.support__players {
+  width: 394px;
+  height: 250px;
+}
+
+@media screen and (max-width: 850px) {
+  .support__players {
+    width: 335px;
+    height: 212.56px;
+  }
+}

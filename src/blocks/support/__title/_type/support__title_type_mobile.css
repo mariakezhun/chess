@@ -1,0 +1,10 @@
+.support__title_type_mobile {
+  display: none;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 850px) {
+  .support__title_type_mobile {
+    display: block;
+  }
+}

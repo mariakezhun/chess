@@ -1,0 +1,18 @@
+.support__title {
+  margin: 0;
+  padding: 0;
+  color: #313131;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  text-transform: uppercase;
+  max-width: 764px;
+}
+
+@media screen and (max-width: 850px) {
+  .support__title {
+    display: none;
+  }
+}

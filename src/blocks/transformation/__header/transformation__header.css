@@ -1,0 +1,15 @@
+.transformation__header {
+  max-width: 806px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 0 53px;
+}
+
+@media screen and (max-width: 850px) {
+  .transformation__header {
+    max-width: 335px;
+    row-gap: 12px;
+    margin: 0 0 150px;
+  }
+}
